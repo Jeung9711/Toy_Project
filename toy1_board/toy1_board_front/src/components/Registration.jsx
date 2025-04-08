@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import {
   FormWrapper,
@@ -11,7 +11,6 @@ import {
 import { RegisterTitle } from "./styles/RegisterStyles";
 
 const Registration = () => {
-  const [signData, setSignData] = useState([]);
   const [currentData, setCurrentData] = useState({
     username: "",
     email: "",
@@ -19,7 +18,6 @@ const Registration = () => {
     passwordConfirm: "",
     nickname: "",
   });
-  const [isSigningUp, setIsSigningUp] = useState(false);
   const [usernameError, setUsernameError] = useState("");
   const [emailError, setEmailError] = useState("");
   const [passwordError, setPasswordError] = useState("");
@@ -28,44 +26,57 @@ const Registration = () => {
   const [signupSuccess, setSignupSuccess] = useState();
   const navigator = useNavigate();
 
-  // 기존의 로컬 스토리지에 있던 userData를 저장
-  useEffect(() => {
-    const saved = JSON.parse(localStorage.getItem("userData"));
-    if (saved) setSignData(saved);
-  }, []);
-
+  // 각 입력값 currentData에 저장
   const handleChange = async (e) => {
     const { name, value } = e.target;
+
+    if (name == "password") {
+      checkPassword(value);
+    }
 
     setCurrentData((prev) => ({
       ...prev,
       [name]: value,
     }));
+  };
 
-    if (name == "password") {
-      checkPassword(value);
+  // 서버 통신으로 유효성 검사 : username, email
+  const checkID = async (type, value) => {
+    if (!value) return;
+
+    try {
+      const res = await fetch(`http://localhost:9000/api/check-${type}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ [type]: value }),
+      });
+
+      const data = await res.json();
+
+      if (data.isDuplicated) {
+        if (type === "username") {
+          setUsernameError("이미 사용중인 아이디입니다.");
+        } else if (type === " email") {
+          setEmailError("이미 사용중인 이메일입니다.");
+        }
+      } else {
+        if (type === "username") {
+          setUsernameError("");
+        } else if (type === "email") {
+          setEmailError("");
+        }
+      }
+    } catch (error) {
+      console.error(`${type} 중복 확인 실패:`, error);
+      if (type === "username") {
+        setUsernameError("서버와의 통신에 실패했습니다.");
+      } else if (type === " email") {
+        setEmailError("서버와의 통신에 실패했습니다.");
+      }
     }
   };
 
-  // 각 변수에 대한 유효성 검사
-  const checkUsername = async (value) => {
-    const storeUserData = JSON.parse(localStorage.getItem("userData"));
-
-    if (storeUserData && storeUserData.username === value) {
-      setUsernameError("이미 사용중인 아이디입니다.");
-    } else {
-      setUsernameError("");
-    }
-  };
-
-  const checkEmail = (value) => {
-    if (!/@/.test(value)) {
-      setEmailError("유효하지 않은 이메일 형식입니다.");
-    } else {
-      setEmailError("");
-    }
-  };
-
+  // 비밀번호 유효성 검사
   const checkPassword = (value) => {
     if (value.length < 8) {
       setPasswordError("비밀번호는 최소 8자 이상이어야 합니다.");
@@ -80,6 +91,7 @@ const Registration = () => {
     }
   };
 
+  // 비밀번호 확인 검사
   const checkPasswordConfirmError = async (value) => {
     const password = currentData.password;
 
@@ -91,7 +103,7 @@ const Registration = () => {
     }
   };
 
-  // 제출에 대한 동작 코드
+  // 기존 데이터를 서버에 저장
   const handleSignupSubmit = async (e) => {
     e.preventDefault();
 
@@ -106,44 +118,39 @@ const Registration = () => {
     checkEmail(currentData.email);
     await checkPasswordConfirmError(currentData.passwordConfirm);
 
-    // currentData 저장
-    // setState가 비동기 처리되어 빈 배열이 업로드, 이를 막기위해 변수로 저장
-    const updateData = [...signData, currentData];
-    setSignData(updateData);
-    setCurrentData({
-      username: "",
-      email: "",
-      password: "",
-      passwordConfirm: "",
-      nickname: "",
-    });
-
-    // 오류 발생 시 중단
-    if (
-      usernameError !== "" ||
-      emailError !== "" ||
-      passwordError !== "" ||
-      passwordConfirmError !== ""
-    ) {
-      // setSignupError('입력한 정보를 다시 확인해주세요.');
-      setIsSigningUp(false);
-    }
-
-    // 로컬 스토리지에 저장
+    // 서버에 POST 요청
     try {
-      localStorage.setItem("userData", JSON.stringify(updateData));
-      setSignupSuccess("회원가입이 완료되었습니다!");
-      console.log("가입성공", updateData);
-      // 회원가입에서 로그인 페이지로 연결
-      setTimeout(() => {
-        navigator("/login-page");
-      }, 2000);
-    } catch (error) {
-      setSignupError("저장 중 오류가 발생하였습니다.");
-      console.log("가입 실패");
-    }
+      const res = await fetch("http://localhost:9000/registation-page", {
+        method: "POST",
+        header: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          username: currentData.username,
+          email: currentData.email,
+          password: currentData.password,
+          nickname: currentData.nickname,
+        }),
+      });
 
-    setIsSigningUp(false);
+      if (res.ok) {
+        setSignupSuccess("회원가입이 완료되었습니다!");
+        setCurrentData({
+          username: "",
+          email: "",
+          password: "",
+          passwordConfirm: "",
+          nickname: "",
+        });
+        setTimeout(() => {
+          navigator("/lognin-page");
+        }, 2000);
+      } else {
+        setSignupError(res.message || "회원가입에 실패했습니다.");
+      }
+    } catch (error) {
+      setSignupError("서버와 통신 중 오류가 발생했습니다.");
+    }
   };
 
   return (
