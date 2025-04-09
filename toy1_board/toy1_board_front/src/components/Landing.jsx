@@ -1,9 +1,7 @@
+import Header from "./Header";
+
 const Landing = () => {
-    return (
-        <div>
-            <h1>기본페이지</h1>
-        </div>
-    );
-}
+  return <Header></Header>;
+};
 
 export default Landing;

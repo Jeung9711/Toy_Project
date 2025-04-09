@@ -18,11 +18,15 @@ const Registration = () => {
     passwordConfirm: "",
     nickname: "",
   });
-  const [usernameError, setUsernameError] = useState("");
-  const [emailError, setEmailError] = useState("");
-  const [passwordError, setPasswordError] = useState("");
-  const [passwordConfirmError, setPasswordConfirmError] = useState("");
-  const [signupError, setSignupError] = useState();
+  const [errors, setErrors] = useState({
+    username: "",
+    email: "",
+    password: "",
+    passwordConfirm: "",
+    nickname: "",
+    signup: "",
+  });
+  const [isSigningUp, setIsSigningUp] = useState(false);
   const [signupSuccess, setSignupSuccess] = useState();
   const navigator = useNavigate();
 
@@ -44,6 +48,17 @@ const Registration = () => {
   const checkID = async (type, value) => {
     if (!value) return;
 
+    if (type === "email") {
+      if (!value.includes("@")) {
+        setErrors((prev) => ({
+          ...prev,
+          email: "올바른 이메일 형식이 아닙니다.",
+        }));
+        return;
+      } else {
+        setErrors((prev) => ({ ...prev, email: "" }));
+      }
+    }
     try {
       const res = await fetch(`http://localhost:9000/api/check-${type}`, {
         method: "POST",
@@ -51,27 +66,43 @@ const Registration = () => {
         body: JSON.stringify({ [type]: value }),
       });
 
+      if (!res.ok) {
+        throw new Error(`server error: ${res.status}`);
+      }
+
       const data = await res.json();
 
       if (data.isDuplicated) {
         if (type === "username") {
-          setUsernameError("이미 사용중인 아이디입니다.");
+          setErrors((prev) => ({
+            ...prev,
+            username: "이미 사용중인 아이디입니다.",
+          }));
         } else if (type === " email") {
-          setEmailError("이미 사용중인 이메일입니다.");
+          setErrors((prev) => ({
+            ...prev,
+            email: "이미 사용중인 이메일입니다.",
+          }));
         }
       } else {
         if (type === "username") {
-          setUsernameError("");
+          setErrors((prev) => ({ ...prev, username: "" }));
         } else if (type === "email") {
-          setEmailError("");
+          setErrors((prev) => ({ ...prev, email: "" }));
         }
       }
     } catch (error) {
       console.error(`${type} 중복 확인 실패:`, error);
       if (type === "username") {
-        setUsernameError("서버와의 통신에 실패했습니다.");
+        setErrors((prev) => ({
+          ...prev,
+          username: "서버와의 통신에 실패했습니다.",
+        }));
       } else if (type === " email") {
-        setEmailError("서버와의 통신에 실패했습니다.");
+        setErrors((prev) => ({
+          ...prev,
+          email: "서버와의 통신에 실패했습니다.",
+        }));
       }
     }
   };
@@ -79,15 +110,27 @@ const Registration = () => {
   // 비밀번호 유효성 검사
   const checkPassword = (value) => {
     if (value.length < 8) {
-      setPasswordError("비밀번호는 최소 8자 이상이어야 합니다.");
+      setErrors((prev) => ({
+        ...prev,
+        password: "비밀번호는 최소 8자 이상이어야 합니다.",
+      }));
     } else if (!/[A-Z]/.test(value)) {
-      setPasswordError("비밀번호는 대문자를 최소 1개 포함해야 합니다.");
+      setErrors((prev) => ({
+        ...prev,
+        password: "비밀번호는 대문자를 최소 1개 포함해야 합니다.",
+      }));
     } else if (!/[!@#$%^&*]/.test(value)) {
-      setPasswordError("비밀번호는 특수문자를 최소 1개 포함해야 합니다.");
+      setErrors((prev) => ({
+        ...prev,
+        password: "비밀번호는 특수문자를 최소 1개 포함해야 합니다.",
+      }));
     } else if (!/[0-9]/.test(value)) {
-      setPasswordError("비밀번호는 숫자를 최소 1개 포함해야 합니다.");
+      setErrors((prev) => ({
+        ...prev,
+        password: "비밀번호는 숫자를 최소 1개 포함해야 합니다.",
+      }));
     } else {
-      setPasswordError("");
+      setErrors((prev) => ({ ...prev, password: "" }));
     }
   };
 
@@ -96,10 +139,13 @@ const Registration = () => {
     const password = currentData.password;
 
     if (password != value) {
-      setPasswordConfirmError("비밀번호가 일치하지 않습니다.");
+      setErrors((prev) => ({
+        ...prev,
+        passwordConfirm: "비밀번호가 일치하지 않습니다.",
+      }));
       console.log("password:", password, "passwordConfirm:", value);
     } else {
-      setPasswordConfirmError("");
+      setErrors((prev) => ({ ...prev, passwordConfirm: "" }));
     }
   };
 
@@ -109,27 +155,31 @@ const Registration = () => {
 
     if (isSigningUp) return; //중복 클릭 방지
     setIsSigningUp(true);
-    setSignupError("");
     setSignupSuccess("");
 
     // 유효성 검사
-    await checkUsername(currentData.username);
-    checkPassword(currentData.password);
-    checkEmail(currentData.email);
-    await checkPasswordConfirmError(currentData.passwordConfirm);
+
+    // 구조 분해 할당
+    const { username, email, password, passwordConfirm, nickname } =
+      currentData;
+    if (!username || !email || !password || !passwordConfirm || !nickname) {
+      setErrors((prev) => ({ ...prev, signup: "모든 필드를 입력해주세요." }));
+    }
+
+    await checkPasswordConfirmError(passwordConfirm);
 
     // 서버에 POST 요청
     try {
       const res = await fetch("http://localhost:9000/register", {
         method: "POST",
-        header: {
+        headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          username: currentData.username,
-          email: currentData.email,
-          password: currentData.password,
-          nickname: currentData.nickname,
+          username: username,
+          email: email,
+          password: password,
+          nickname: nickname,
         }),
       });
 
@@ -146,10 +196,16 @@ const Registration = () => {
           navigator("/lognin-page");
         }, 2000);
       } else {
-        setSignupError(res.message || "회원가입에 실패했습니다.");
+        setErrors((prev) => ({
+          ...prev,
+          signup: res.message || "회원가입에 실패했습니다.",
+        }));
       }
     } catch (error) {
-      setSignupError("서버와 통신 중 오류가 발생했습니다.");
+      setErrors((prev) => ({
+        ...prev,
+        signup: "서버와의 통신에 실패했습니다.",
+      }));
     }
   };
 
@@ -163,13 +219,15 @@ const Registration = () => {
           type="text"
           id="sign_id"
           name="username"
-          value={signData.username}
+          value={currentData.username}
           placeholder="사용할 아이디를 입력하세요"
           onChange={handleChange}
-          onBlur={checkUsername}
+          onBlur={(e) => {
+            checkID(e.target.name, e.target.value);
+          }}
         ></Input>
-        {usernameError != "" ? (
-          <ErrorMessage>{usernameError}</ErrorMessage>
+        {errors.username != "" ? (
+          <ErrorMessage>{errors.usernameError}</ErrorMessage>
         ) : null}
 
         <Label htmlFor="sign_email">이메일</Label>
@@ -178,12 +236,14 @@ const Registration = () => {
           type="email"
           id="sign_email"
           name="email"
-          value={signData.email}
+          value={currentData.email}
           placeholder="이메일을 입력하세요"
           onChange={handleChange}
-          onBlur={(e) => checkEmail(e.target.value)}
+          onBlur={(e) => checkID(e.target.name, e.target.value)}
         ></Input>
-        {emailError != "" ? <ErrorMessage>{emailError}</ErrorMessage> : null}
+        {errors.email != "" ? (
+          <ErrorMessage>{errors.email}</ErrorMessage>
+        ) : null}
 
         <Label htmlFor="sign_pw">비밀번호</Label>
         <Input
@@ -191,12 +251,12 @@ const Registration = () => {
           type="password"
           id="sign_pw"
           name="password"
-          value={signData.password}
+          value={currentData.password}
           placeholder="비밀번호를 입력하세요"
           onChange={handleChange}
         ></Input>
-        {passwordError != "" ? (
-          <ErrorMessage>{passwordError}</ErrorMessage>
+        {errors.password != "" ? (
+          <ErrorMessage>{errors.password}</ErrorMessage>
         ) : null}
 
         <Label htmlFor="sign_pw_check">비밀번호 확인</Label>
@@ -205,15 +265,15 @@ const Registration = () => {
           type="password"
           id="sign_pw_check"
           name="passwordConfirm"
-          value={signData.passwordConfirm}
+          value={currentData.passwordConfirm}
           placeholder="비밀번호를 다시 입력하세요"
           onChange={handleChange}
           onBlur={(e) => {
             checkPasswordConfirmError(e.target.value);
           }}
         ></Input>
-        {passwordConfirmError != "" ? (
-          <ErrorMessage>{passwordConfirmError}</ErrorMessage>
+        {errors.passwordConfirm != "" ? (
+          <ErrorMessage>{errors.passwordConfirm}</ErrorMessage>
         ) : null}
 
         <Label htmlFor="sign_nickname">닉네임</Label>
@@ -222,7 +282,7 @@ const Registration = () => {
           type="text"
           id="sign_nickname"
           name="nickname"
-          value={signData.nickname}
+          value={currentData.nickname}
           placeholder="표시할 닉네임을 입력하세요"
           onChange={handleChange}
         ></Input>
@@ -236,7 +296,7 @@ const Registration = () => {
         </SubmitButton>
       </form>
       <Link to="/login-page">이미 계정이 있으신가요? 로그인</Link>
-      {signupError && <ErrorMessage>{signupError}</ErrorMessage>}
+      {errors.signup && <ErrorMessage>{errors.signup}</ErrorMessage>}
       {signupSuccess && <SuccessMessage>{signupSuccess}</SuccessMessage>}
     </FormWrapper>
   );

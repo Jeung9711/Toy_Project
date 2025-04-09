@@ -25,22 +25,24 @@ const Login = () => {
     // 로그인 - 백엔드
     try {
       // 백엔드 서버로 로그인 요청
-      const res = await fetch("http://localhost:9000/login-page", {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json", //JSON 형식으로 요청
-        },
-        body: JSON.stringify({
-          username: loginId,
-          password: password,
-        }),
-      });
+      const res = await fetch(
+        `http://localhost:9000/login?username=${loginId}&password=${password}`,
+        {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json", //JSON 형식으로 요청
+          },
+        }
+      );
 
       const data = await res.json();
 
-      if (res.oko) {
+      if (res.ok) {
+        localStorage.setItem("nickname", data.nickname);
         console.log("로그인 성공", data);
-        navigate("/lanading-page");
+        setTimeout(() => {
+          navigate("/landing-page");
+        }, 1000);
       } else {
         setLoginError(data.message || "아이디 또는 비밀번호가 틀렸습니다.");
       }
