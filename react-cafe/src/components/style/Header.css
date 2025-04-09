@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "PyeongChangPeace-Bold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+.site-header {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.site-title {
+  margin: 0;
+  font-family: "PyeongChangPeace-Bold";
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #333;
+}

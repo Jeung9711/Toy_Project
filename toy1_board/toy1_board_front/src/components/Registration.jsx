@@ -120,7 +120,7 @@ const Registration = () => {
 
     // 서버에 POST 요청
     try {
-      const res = await fetch("http://localhost:9000/registation-page", {
+      const res = await fetch("http://localhost:9000/register", {
         method: "POST",
         header: {
           "Content-Type": "application/json",
