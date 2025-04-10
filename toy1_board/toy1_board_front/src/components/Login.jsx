@@ -8,6 +8,7 @@ import {
   ErrorMessage,
 } from "./styles/FormStyles";
 import { LoginTitle } from "./styles/LoginStyles";
+import GoogleOAuthButton from "./GoogleOAuthButton";
 
 const Login = () => {
   const [loginId, setLoginId] = useState("");
@@ -89,6 +90,7 @@ const Login = () => {
         {loginError && <ErrorMessage>{loginError}</ErrorMessage>}
       </form>
       <Link to="/registration-page">아직 계정이 없으신가요? 회원가입</Link>
+      <GoogleOAuthButton />
     </FormWrapper>
   );
 };
