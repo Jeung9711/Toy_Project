@@ -1,13 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header";
-import BrandList from "./components/BrandList";
+import Body from "./components/Body";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <BrandList />
+      <Body />
     </div>
   );
 }
