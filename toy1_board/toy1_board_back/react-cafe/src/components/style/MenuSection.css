@@ -1,0 +1,42 @@
+.menu-section {
+  border: 2px inset #ddd; /* 살짝 음각 느낌 */
+  padding: 20px;
+  margin-top: 30px;
+  background-color: #fdfdfd;
+  border-radius: 12px;
+}
+
+.menu-theme {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e94e77;
+  margin-bottom: 20px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 항상 2열 */
+  gap: 20px;
+}
+
+.menu-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 12px;
+  background: white;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  text-align: center;
+}
+
+.menu-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+}
