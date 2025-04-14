@@ -1,5 +1,6 @@
 import { useLocation } from "react-router-dom";
 import Header from "./Header";
+import PostList from "./PostList";
 import { useEffect } from "react";
 
 const Landing = () => {
@@ -18,7 +19,12 @@ const Landing = () => {
     }
   }, [location]);
 
-  return <Header></Header>;
+  return (
+    <div>
+      <Header></Header>
+      <PostList></PostList>
+    </div>
+  );
 };
 
 export default Landing;

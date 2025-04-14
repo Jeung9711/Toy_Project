@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Login from "./components/Login";
 import Registration from "./components/Registration";
 import Landing from "./components/Landing";
+import PostDetail from "./components/PostDetail";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/login-page" element={<Login />}></Route>
         <Route path="/registration-page" element={<Registration />}></Route>
         <Route path="/landing-page" element={<Landing />}></Route>
+        <Route path="/posts/:id" element={<PostDetail />}></Route>
 
         {/* 그 외 모든 경로 */}
         <Route path="*" element={<Navigate to="/login-page" />}></Route>
