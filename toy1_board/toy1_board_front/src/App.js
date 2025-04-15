@@ -2,10 +2,10 @@ import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Login from "./components/Login";
-import Registration from "./components/Registration";
-import Landing from "./components/Landing";
-import PostDetail from "./components/PostDetail";
+import Login from "page/Login";
+import Registration from "page/Registration";
+import Landing from "page/Landing";
+import PostDetail from "page/PostDetail";
 
 function App() {
   return (

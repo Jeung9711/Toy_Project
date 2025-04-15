@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import {
   FormWrapper,
@@ -6,22 +6,35 @@ import {
   Input,
   SubmitButton,
   ErrorMessage,
-} from "./styles/FormStyles";
-import { LoginTitle } from "./styles/LoginStyles";
-import GoogleOAuthButton from "./GoogleOAuthButton";
+} from "../components/styles/FormStyles";
+import { LoginTitle } from "../components/styles/LoginStyles";
+import GoogleOAuthButton from "../components/GoogleOAuthButton";
+import { useDispatch, useSelector } from "react-redux";
+import { setUser } from "../features/user/userSlice";
 
 const Login = () => {
   const [loginId, setLoginId] = useState("");
   const [password, setPassword] = useState("");
-  const [isLoggingIn, SetisLoggingIn] = useState(false);
+  const [isLoggingIn, SetIsLoggingIn] = useState(false);
   const [loginError, setLoginError] = useState("");
   const navigate = useNavigate();
+  // 리덕스를 위한 설정
+  const nickname = useSelector((state) => state.user.nickname);
+  const dispatch = useDispatch();
+
+  // 새로고침해도 리덕스에 닉네임 저장
+  useEffect(() => {
+    const nickname = localStorage.getItem("nickname");
+    if (nickname) {
+      dispatch(setUser({ nickname }));
+    }
+  });
 
   const handleLoginSubmit = async (e) => {
     e.preventDefault();
 
     if (isLoggingIn) return;
-    SetisLoggingIn(true);
+    SetIsLoggingIn(true);
 
     // 로그인 - 백엔드
     try {
@@ -39,6 +52,7 @@ const Login = () => {
       const data = await res.json();
 
       if (res.ok) {
+        dispatch(setUser({ id: data.id, nickname: data.nickname }));
         localStorage.setItem("nickname", data.nickname);
         console.log("로그인 성공", data);
         setTimeout(() => {
@@ -51,7 +65,7 @@ const Login = () => {
       setLoginError("서버와의 연결에 실패했습니다.");
     }
 
-    SetisLoggingIn(false);
+    SetIsLoggingIn(false);
   };
 
   return (

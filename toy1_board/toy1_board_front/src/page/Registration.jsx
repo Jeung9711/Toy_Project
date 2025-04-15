@@ -7,8 +7,8 @@ import {
   SubmitButton,
   ErrorMessage,
   SuccessMessage,
-} from "./styles/FormStyles";
-import { RegisterTitle } from "./styles/RegisterStyles";
+} from "../components/styles/FormStyles";
+import { RegisterTitle } from "../components/styles/RegisterStyles";
 
 const Registration = () => {
   const [currentData, setCurrentData] = useState({

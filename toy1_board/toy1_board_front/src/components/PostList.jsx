@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Column, PostContainer, PostRow } from "../components/styles/PostList";
+import { Column, PostContainer, PostRow } from "components/styles/PostList";
 import { useNavigate } from "react-router-dom";
 
 const PostList = () => {

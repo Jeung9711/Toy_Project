@@ -6,12 +6,18 @@ import {
   Nickname,
   LogoutButton,
 } from "./styles/Header";
+import { useDispatch } from "react-redux";
+import { clearUser } from "features/user/userSlice";
 
 const Header = () => {
+  const dispatch = useDispatch();
   const navigate = useNavigate();
+  // 리덕스 추가하기
   const nickname = localStorage.getItem("nickname");
 
   const handleLogout = () => {
+    dispatch(clearUser());
+    console.log("리덕스 클리어");
     localStorage.removeItem("nickname");
     navigate("/login");
   };
