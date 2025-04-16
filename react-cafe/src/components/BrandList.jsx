@@ -24,27 +24,16 @@ const brands = [
   },
   { name: "더 벤티", image: theVentiLogo, url: "https://www.theventi.co.kr" },
   {
-    name: "텐퍼센트",
-    image: tenpercentLogo,
-    url: "https://www.tenpercentcoffee.com",
+    name: "공차",
+    image: gongchaLogo,
+    url: "https://www.gong-cha.co.kr/brand/",
   },
-  { name: "이디야", image: ediyaLogo, url: "https://www.ediya.com" },
-  {
-    name: "감성커피",
-    image: gamsungcoffeeLogo,
-    url: "https://xn--439as41bv4jv9f.com/main.html",
-  },
-  { name: "빽다방", image: paikdabangLogo, url: "https://paikdabang.com/" },
   {
     name: "컴포즈커피",
     image: composeLogo,
     url: "https://composecoffee.com/",
   },
-  {
-    name: "공차",
-    image: gongchaLogo,
-    url: "https://www.gong-cha.co.kr/brand/",
-  },
+  { name: "빽다방", image: paikdabangLogo, url: "https://paikdabang.com/" },
 ];
 
 function BrandList() {
