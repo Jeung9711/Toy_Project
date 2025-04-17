@@ -7,8 +7,8 @@ class Cafe:
     
 
 cafes = [
-    Cafe("Mega Coffee", "https://www.mega-mgccoffee.com/","mega"),
-    # Cafe("Starbucks","https://www.starbucks.co.kr/index.do","star"),
+    # Cafe("Mega Coffee", "https://www.mega-mgccoffee.com/","mega"),
+    Cafe("Starbucks","https://www.starbucks.co.kr","star"),
     # Cafe("The Venti","https://www.theventi.co.kr/","venti"),
     # Cafe("Gongcha","hrrps://www.hong-cha.co.kr/brand","gong-cha"),
     # Cafe("Compose Coffee","https://composecoffee.com/","compose"),

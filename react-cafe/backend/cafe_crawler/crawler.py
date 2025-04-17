@@ -3,6 +3,11 @@ from bs4 import BeautifulSoup
 import time
 import re  # python의 정규표현식 모듈
 
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+
+
 
 def crawl_default(driver, url):
     """
@@ -96,3 +101,16 @@ def crawl_mega(driver, url):
     for r in result:
         print(r)
     return result
+
+#스타벅스 크롤링
+def crawl_starbucks(driver, url):
+
+    # 스타벅스 이벤트 창으로 이동
+    crawl_url = url+'/whats_new/campaign_list.do'
+    driver.get(crawl_url)
+    time.sleep(2)
+
+    # 신메뉴를 클릭
+
+    
+

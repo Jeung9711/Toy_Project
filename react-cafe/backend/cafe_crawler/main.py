@@ -1,6 +1,6 @@
 from cafes import cafes
 from crawler import crawl_mega, crawl_default
-from utils import get_chrome_driver
+from utils import get_chrome_driver, save_to_json
 
 # 크롤링할 카페의 타입과 함수를 연결하는 객체
 crawl_funcs = {
