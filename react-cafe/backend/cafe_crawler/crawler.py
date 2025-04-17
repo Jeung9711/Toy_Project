@@ -55,29 +55,41 @@ def crawl_mega(driver, url):
         print("추출된 텍스트>", new_menu_keywords)
     
     result = []
-    container = soup.select_one(".cont_list.cont_list_content.cont_list_content_align")
+    html = '.cont_boxs.menu_box #menu_list #menu_list'
+    container = soup.select_one(html)
     if not container:
         print("container 못찾음")
         return result
     
-    items = container.select(".cont_list_box")
+    items = container.select("li")
     for item in items:
-        name_tag = item.select_one(".menu_tit")
-        image_tag = item.select_one('img')
-        desc_tag = item.select_one('.cont_list_txt')
+        name_tag = item.select_one(".inner_modal_open .cont_text_box .text.text1")
+        image_tag = item.select_one('.inner_modal_open .cont_gallery_list_img img')
+        desc_list = item.select('.inner_modal .cont_list.cont_list2.cont_list_small.cont_list_small2 ul li')
 
         if not name_tag or not image_tag:
             continue
 
         name = name_tag.text.strip()
         image = image_tag["src"]
-        desc = desc_tag.text.strip() if desc_tag else ""
+        desc = [li.text.strip() for li in desc_list] if desc_list else ""
+
+        nutrition = {}
+        for line in desc:
+            parts = line.split()
+            if len(parts) == 2:
+                key, value = parts
+                nutrition[key] = value
+            elif len(parts) == 1:
+                nutrition[parts[0]] = "정보 없음"
 
         if any(keyword in name for keyword in new_menu_keywords):
             result.append({
+                "cafe" : "메가커피",
                 "name" : name,
                 "image" : image,
-                "desc" : desc,
+                "price" : None,
+                "nutrition" : nutrition,
             })
     
     print(f"total {len(result)} new menu")
