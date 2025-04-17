@@ -1,6 +1,12 @@
 import { useEffect, useState } from "react";
-import { Column, PostContainer, PostRow } from "components/styles/PostList";
-import { useNavigate } from "react-router-dom";
+import {
+  ButtonContainer,
+  Column,
+  PostContainer,
+  PostRow,
+  StyledButton,
+} from "components/styles/PostList";
+import { Link, useNavigate } from "react-router-dom";
 
 const PostList = () => {
   const [posts, setPosts] = useState([]);
@@ -19,12 +25,27 @@ const PostList = () => {
 
   return (
     <PostContainer>
+      <ButtonContainer>
+        <StyledButton onClick={() => navigate("/posts/new")}>
+          새 글 작성
+        </StyledButton>
+      </ButtonContainer>
+
+      <PostRow className="header">
+        <Column>번호</Column>
+        {/* <Column>Id</Column> */}
+        <Column>제목</Column>
+        <Column>작성자</Column>
+      </PostRow>
+
       {posts.map((data, index) => {
         return (
-          <PostRow key={data.id} onClick={() => navigate(`/posts/${data.id}`)}>
+          <PostRow className="data">
             <Column>{index + 1}</Column>
-            <Column>{data.id}</Column>
-            <Column>{data.title}</Column>
+            {/* <Column>{data.id}</Column> */}
+            <Column key={data.id} onClick={() => navigate(`/posts/${data.id}`)}>
+              {data.title}
+            </Column>
             <Column>{data.author}</Column>
           </PostRow>
         );

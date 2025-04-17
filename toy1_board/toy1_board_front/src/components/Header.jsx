@@ -24,7 +24,7 @@ const Header = () => {
 
   return (
     <HeaderContainer>
-      <Title>기본 페이지</Title>
+      <Title>글 목록</Title>
       <UserInfo>
         <Nickname>{nickname}님</Nickname>
         <LogoutButton onClick={handleLogout}>로그아웃</LogoutButton>

@@ -25,10 +25,12 @@ const Login = () => {
   // 새로고침해도 리덕스에 닉네임 저장
   useEffect(() => {
     const nickname = localStorage.getItem("nickname");
-    if (nickname) {
-      dispatch(setUser({ nickname }));
+    const id = localStorage.getItem("id");
+
+    if (nickname && id) {
+      dispatch(setUser({ id, nickname }));
     }
-  });
+  }, [dispatch]);
 
   const handleLoginSubmit = async (e) => {
     e.preventDefault();
@@ -53,7 +55,9 @@ const Login = () => {
 
       if (res.ok) {
         dispatch(setUser({ id: data.id, nickname: data.nickname }));
+        localStorage.setItem("id", data.id);
         localStorage.setItem("nickname", data.nickname);
+
         console.log("로그인 성공", data);
         setTimeout(() => {
           navigate("/landing-page");
