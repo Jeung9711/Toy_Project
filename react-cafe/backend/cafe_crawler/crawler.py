@@ -111,6 +111,16 @@ def crawl_starbucks(driver, url):
     time.sleep(2)
 
     # 신메뉴를 클릭
+    first_campaign = driver.find_element(By.CSS_SELECTOR, ".campaign_wrap li:nth-child(1)")
+    first_campaign.click()
+    time.sleep(2)
 
-    
+    page_source = driver.page_source
+
+    # 크롤링 시작
+    soup = BeautifulSoup(page_source, 'html.parser')
+
+    new_menu = []
+
+    menu_tag = 0
 

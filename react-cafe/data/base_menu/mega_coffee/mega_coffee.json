@@ -1,0 +1,1778 @@
+[
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 라이트 바닐라 아몬드라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20250402185107_1743587467742_jeeQmgRshX.jpg",
+    "nutrition": [
+      "포화지방 0.4g",
+      "당류 4.1g",
+      "나트륨 120.4mg",
+      "단백질 1.8g",
+      "카페인 9.5mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "(HOT)헛개리카노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20250320000737_1742396857693_ngpZI3EbLM.jpg",
+    "nutrition": [
+      "포화지방 0.1g",
+      "당류 0.0g",
+      "나트륨 11.7mg",
+      "단백질 1.3g",
+      "카페인 181.6g"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "(ICE)헛개리카노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20250320000925_1742396965069_ekSqAIVc1L.jpg",
+    "nutrition": [
+      "포화지방 0.1g",
+      "당류 0.0g",
+      "나트륨 8.4mg",
+      "단백질 1.0g",
+      "카페인 181.2mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "제로 부스트 에이드",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20250320002931_1742398171188_QX5SewCVs4.jpg",
+    "nutrition": [
+      "포화지방 0.1g",
+      "당류 0.6g",
+      "나트륨 66mg",
+      "단백질 0.8g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "블루베리요거트스무디",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20250320003134_1742398294871_z9t_oXfbA6.jpg",
+    "nutrition": [
+      "포화지방 2.5 g",
+      "당류 109.3g",
+      "나트륨 133.5mg",
+      "단백질 6.0g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "피치푸룬주스",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20250320003308_1742398388471_NLtoviExwY.jpg",
+    "nutrition": [
+      "포화지방 0.1g",
+      "당류 35.7g",
+      "나트륨 62.6mg",
+      "단백질 0.7g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "골드키위주스",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20250320003451_1742398491079_wWQva965Sn.jpg",
+    "nutrition": [
+      "포화지방 0.1g",
+      "당류 43.1g",
+      "나트륨 15.0mg",
+      "단백질 1.2g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "귤 톡톡 젤리스무디",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20250320003615_1742398575781_Dy89tEHQTL.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 89.2g",
+      "나트륨 81.4mg",
+      "단백질 0.5g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "왕메가카페라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20250320004326_1742399006488_yI4cvwXy6N.jpg",
+    "nutrition": [
+      "포화지방 7.1g",
+      "당류 28.4g",
+      "나트륨 136.2mg",
+      "단백질 15.0g",
+      "카페인 347.1mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 왕메가카페라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20250320004527_1742399127150_aZXw3Wbf4H.jpg",
+    "nutrition": [
+      "포화지방 7.2g",
+      "당류 26.4g",
+      "나트륨 136.4mg",
+      "단백질 10.6g",
+      "카페인 11.2mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "왕메가사과유자",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20250320004730_1742399250273_UPT0oK5fSb.jpg",
+    "nutrition": [
+      "포화지방 0.1g",
+      "당류 76.7g",
+      "나트륨 120.4mg",
+      "단백질 0.2g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "왕메가헛개리카노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20250320001838_1742397518902_MCGDHqjxXi.jpg",
+    "nutrition": [
+      "포화지방 0.1g",
+      "당류 0.0g",
+      "나트륨 12.2mg",
+      "단백질 0.9g",
+      "카페인 234.6mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "(HOT)디카페인 헛개리카노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20250320002019_1742397619030_g5iEBTRsp7.jpg",
+    "nutrition": [
+      "포화지방 0.1g",
+      "당류 0.0g",
+      "나트륨 10.2mg",
+      "단백질 0.6g",
+      "카페인 9.1mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "(ICE)디카페인 헛개리카노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20250320002154_1742397714997_gJNgLAlBgB.jpg",
+    "nutrition": [
+      "포화지방 0.1g",
+      "당류 0.0g",
+      "나트륨 8.3mg",
+      "단백질 0.8g",
+      "카페인 5.3mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 왕메가헛개리카노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20250320002658_1742398018940_tQcZf5VEmt.jpg",
+    "nutrition": [
+      "포화지방 0.1g",
+      "당류 0.0g",
+      "나트륨 12.1mg",
+      "단백질 0.6g",
+      "카페인 13.1mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "딸기라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20250116001724_1736954244791_8qDsY0gj14.jpg",
+    "nutrition": [
+      "포화지방 3.0g",
+      "당류 47.3g",
+      "나트륨 50.0mg",
+      "단백질 5.8g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "(HOT)상큼 리치티",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20241106234009_1730904009276_fu30eMash6.jpg",
+    "nutrition": [
+      "포화지방 0.1g",
+      "당류 64.1g",
+      "나트륨 10.1mg",
+      "단백질 0.7g",
+      "카페인 0"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "(ICE)상큼 리치티",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20241106234210_1730904130583_8wBT7nkLrL.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 61.9g",
+      "나트륨 8.0mg",
+      "단백질 0.7g",
+      "카페인 0.0"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "할메가미숫커피",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240904234012_1725460812247_PgldrBOdUW.jpg",
+    "nutrition": [
+      "포화지방 7.7g",
+      "당류 45.4g",
+      "나트륨 17.9mg",
+      "단백질 6.4g",
+      "카페인 172.9mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "라이트 바닐라 아몬드라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240703154302_1719988982437_ZzHlEUdQwF.jpg",
+    "nutrition": [
+      "포화지방 0.2g",
+      "당류 3.1g",
+      "나트륨 119mg",
+      "단백질 2.1g",
+      "카페인 206.2mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "왕메가초코",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610114853_1717987733636_Uq2ZKYINXZ.jpg",
+    "nutrition": [
+      "포화지방 6.7g",
+      "당류 77.3g",
+      "나트륨 267.1mg",
+      "단백질 11.9g",
+      "카페인 35.6mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "왕메가아이스티",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610113625_1717986985834_J_PTjRFq7P.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 96.6g",
+      "나트륨 119.2mg",
+      "단백질 0.4g",
+      "카페인 41.2mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "제로 복숭아 아이스티",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610113548_1717986948917_wK8B5fR4h5.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 0.7g",
+      "나트륨 5.3mg",
+      "단백질 0.1g",
+      "카페인 14.5mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "연유라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132459_1717993499610_KiXcTR2q5P.jpg",
+    "nutrition": [
+      "포화지방 8.5g",
+      "당류 31.9g",
+      "나트륨 123.6mg",
+      "단백질 11.8g",
+      "카페인 165.9mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "골드망고스무디",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610112826_1717986506337_AauGwyguRG.jpg",
+    "nutrition": [
+      "포화지방 0.1g",
+      "당류 38.4g",
+      "나트륨 20.7mg",
+      "단백질 0.8g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "할메가커피",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610113252_1717986772176_6c36zo5yuf.jpg",
+    "nutrition": [
+      "포화지방 7.7g",
+      "당류 30.3g",
+      "나트륨 22.5mg",
+      "단백질 1.9g",
+      "카페인 99.6mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "왕할메가커피",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610114915_1717987755314_1rAv8UqZUm.jpg",
+    "nutrition": [
+      "포화지방 12.3g",
+      "당류 48.5g",
+      "나트륨 36.8mg",
+      "단백질 3.1g",
+      "카페인 196.4mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "코코넛 커피 스무디",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132830_1717993710301_PxTeTM9Suh.jpg",
+    "nutrition": [
+      "포화지방 29.3g",
+      "당류 61.4g",
+      "나트륨 347.1mg",
+      "단백질 9.4g",
+      "카페인 173.8mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "딸기주스",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610114741_1717987661472_LqJw6WITHO.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 54.0g",
+      "나트륨 11.0mg",
+      "단백질 1.5g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "딸기바나나주스",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610114817_1717987697259_APSvRawmJi.jpg",
+    "nutrition": [
+      "포화지방 1.5g",
+      "당류 42.2g",
+      "나트륨 41.1mg",
+      "단백질 4.1g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 에스프레소",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610110159_1717984919074_jg4RYBdr_J.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 0.0g",
+      "나트륨 0.6mg",
+      "단백질 0.2g",
+      "카페인 4.9mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 아메리카노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105207_1717984327186_Sgj9kfKYCi.jpg",
+    "nutrition": [
+      "포화지방 0.1g",
+      "당류 0.0g",
+      "나트륨 8.4mg",
+      "단백질 0.5g",
+      "카페인 11.4mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 꿀아메리카노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610104414_1717983854651_gNaXxjR35W.jpg",
+    "nutrition": [
+      "포화지방 0.1g",
+      "당류 26.2g",
+      "나트륨 7.5mg",
+      "단백질 0.5g",
+      "카페인 11.3mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 헤이즐넛 아메리카노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105046_1717984246492_KeavFH2VTO.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 10.3g",
+      "나트륨 5.3mg",
+      "단백질 0.5g",
+      "카페인 6.9mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 바닐라 아메리카노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610104650_1717984010944__Ck8jyuaDL.jpg",
+    "nutrition": [
+      "포화지방 0.1g",
+      "당류 16.9g",
+      "나트륨 5.1mg",
+      "단백질 0.5g",
+      "카페인 9.1mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 카페라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105117_1717984277710_7BjonXSBFE.jpg",
+    "nutrition": [
+      "포화지방 4.8g",
+      "당류 11.4g",
+      "나트륨 102.1mg",
+      "단백질 10.0g",
+      "카페인 17.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 카푸치노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105545_1717984545629_CaGhOpvAnm.jpg",
+    "nutrition": [
+      "포화지방 4.5g",
+      "당류 10.4g",
+      "나트륨 80.6mg",
+      "단백질 8.1g",
+      "카페인 11.3mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 바닐라라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610104630_1717983990934_v3HPYN93uK.jpg",
+    "nutrition": [
+      "포화지방 4.7g",
+      "당류 29.1g",
+      "나트륨 85.8mg",
+      "단백질 8.1g",
+      "카페인 8.9mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 헤이즐넛 라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105007_1717984207073_HqCto2mw3y.jpg",
+    "nutrition": [
+      "포화지방 4.3g",
+      "당류 18.2g",
+      "나트륨 81.4mg",
+      "단백질 8.9g",
+      "카페인 9.4mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 카라멜마끼아또",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105238_1717984358779_MvgzcNlZdI.jpg",
+    "nutrition": [
+      "포화지방 4.2g",
+      "당류 21.3g",
+      "나트륨 91.3mg",
+      "단백질 8.9g",
+      "카페인 7.8mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 연유라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105224_1717984344775_9iKsKownRh.jpg",
+    "nutrition": [
+      "포화지방 6.4g",
+      "당류 27.3g",
+      "나트륨 127.1mg",
+      "단백질 12.3g",
+      "카페인 9.8mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 카페모카",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105145_1717984305671_2_yE7sXma9.jpg",
+    "nutrition": [
+      "포화지방 13.8g",
+      "당류 36.1g",
+      "나트륨 181.6mg",
+      "단백질 11.0g",
+      "카페인 22.8mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 티라미수라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610104827_1717984107715_BxSMVTV5n4.jpg",
+    "nutrition": [
+      "포화지방 14.2g",
+      "당류 37.2g",
+      "나트륨 194.9mg",
+      "단백질 10.2g",
+      "카페인 12.1mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 아메리카노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240612101052_1718154652699_a0ElVTNb16.jpg",
+    "nutrition": [
+      "포화지방 0.1g",
+      "당류 0.0g",
+      "나트륨 4.4mg",
+      "단백질 0.5g",
+      "카페인 10.8mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 메가리카노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610115001_1717987801368_av938eflM8.jpg",
+    "nutrition": [
+      "포화지방 0.1g",
+      "당류 0.0g",
+      "나트륨 7.9mg",
+      "단백질 0.9g",
+      "카페인 10.9mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 꿀아메리카노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610131949_1717993189396_pb_H77_7AM.jpg",
+    "nutrition": [
+      "포화지방 0.1g",
+      "당류 21.5g",
+      "나트륨 5.0mg",
+      "단백질 0.6g",
+      "카페인 8.7mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 헤이즐넛 아메리카노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610131835_1717993115036_XaPndW7UkR.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 15.8g",
+      "나트륨 5.2mg",
+      "단백질 0.6g",
+      "카페인 11.2mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 바닐라 아메리카노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610131932_1717993172929_VUtwLd_LyN.jpg",
+    "nutrition": [
+      "포화지방 0.1g",
+      "당류 21.6g",
+      "나트륨 3.3mg",
+      "단백질 0.4g",
+      "카페인 8.8mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 카페라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132005_1717993205762_9xKCxaSb9P.jpg",
+    "nutrition": [
+      "포화지방 4.5g",
+      "당류 9.3g",
+      "나트륨 78.0mg",
+      "단백질 8.2g",
+      "카페인 14.4mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 카푸치노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132018_1717993218605_64Ij4AhmCE.jpg",
+    "nutrition": [
+      "포화지방 3.7g",
+      "당류 10.1g",
+      "나트륨 68.3mg",
+      "단백질 0.9g",
+      "카페인 11.4mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 바닐라라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610113234_1717986754069_tSPQqoiPj6.jpg",
+    "nutrition": [
+      "포화지방 3.9g",
+      "당류 29.0g",
+      "나트륨 71.4mg",
+      "단백질 6.8g",
+      "카페인 8.4mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 헤이즐넛 라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132034_1717993234457_aGDHQ0U0Ap.jpg",
+    "nutrition": [
+      "포화지방 4.0g",
+      "당류 23.4g",
+      "나트륨 70.7mg",
+      "단백질 7.4g",
+      "카페인 4.8mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 카라멜마끼아또",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610131917_1717993157515_k1yeakRwwv.jpg",
+    "nutrition": [
+      "포화지방 3.6g",
+      "당류 26.3g",
+      "나트륨 68.7mg",
+      "단백질 7.0g",
+      "카페인 8.2mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 연유라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610131759_1717993079921_A7Gr7qp0g2.jpg",
+    "nutrition": [
+      "포화지방 7.0g",
+      "당류 35.1g",
+      "나트륨 117.7mg",
+      "단백질 10.8g",
+      "카페인 14.9mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 카페모카",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240612101114_1718154674451_BGo4AZa57r.jpg",
+    "nutrition": [
+      "포화지방 9.6g",
+      "당류 32.6g",
+      "나트륨 117.7mg",
+      "단백질 6.9g",
+      "카페인 21.9mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "디카페인 티라미수라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240612101133_1718154693622_gipo1rzVp8.jpg",
+    "nutrition": [
+      "포화지방 11.6g",
+      "당류 37.5g",
+      "나트륨 176.6mg",
+      "단백질 7.5g",
+      "카페인 13.5mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "딸기쿠키프라페",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132048_1717993248890_NW1QEUmFtQ.jpg",
+    "nutrition": [
+      "포화지방 12.5g",
+      "당류 65.4g",
+      "나트륨 247.7mg",
+      "단백질 7.7g",
+      "카페인 2.6mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "콜드브루디카페인",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132920_1717993760751_69WHioWjnb.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 0.0g",
+      "나트륨 0.1mg",
+      "단백질 0.5g",
+      "카페인 8.7mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "콜드브루디카페인",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105522_1717984522154_Wf1ds9riaV.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 0.0g",
+      "나트륨 1.9mg",
+      "단백질 0.6g",
+      "카페인 13.1mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "콜드브루디카페인라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132902_1717993742550_EBciHOxu2w.jpg",
+    "nutrition": [
+      "포화지방 4.0g",
+      "당류 0.0g",
+      "나트륨 45.6mg",
+      "단백질 7.9g",
+      "카페인 9.9mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "콜드브루디카페인라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105453_1717984493950_uK1VQNQ6kc.jpg",
+    "nutrition": [
+      "포화지방 3.8g",
+      "당류 0.0g",
+      "나트륨 55.2mg",
+      "단백질 8.6g",
+      "카페인 14.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "에스프레소",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105357_1717984437294_AduuhU3VyW.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 0.0g",
+      "나트륨 0.2mg",
+      "단백질 0.5g",
+      "카페인 104.8mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "에스프레소 도피오",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105413_1717984453131_1es5v0RxH2.jpg",
+    "nutrition": [
+      "포화지방 0.1g",
+      "당류 0.0g",
+      "나트륨 0.4mg",
+      "단백질 1.0g",
+      "카페인 184.7mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "쿠키프라페",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610115315_1717987995816_oiPZ2u5dJr.jpg",
+    "nutrition": [
+      "포화지방 15.6g",
+      "당류 59.7g",
+      "나트륨 411.7mg",
+      "단백질 9.8g",
+      "카페인 6.8mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "고구마라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610104240_1717983760778_agCooQEUb4.jpg",
+    "nutrition": [
+      "포화지방 5.0g",
+      "당류 18.8g",
+      "나트륨 96.5mg",
+      "단백질 9.5g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "곡물라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610104323_1717983803197_Dpwa_RK4_F.jpg",
+    "nutrition": [
+      "포화지방 4.8g",
+      "당류 40.5g",
+      "나트륨 100.3mg",
+      "단백질 18.1g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "토피넛라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105954_1717984794244_2JeEMNYiCL.jpg",
+    "nutrition": [
+      "포화지방 7.0g",
+      "당류 17.8g",
+      "나트륨 172.7mg",
+      "단백질 9.4g",
+      "카페인 56.2mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "고구마라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610112707_1717986427949_WKHpsJWXlk.jpg",
+    "nutrition": [
+      "포화지방 3.8g",
+      "당류 21.6g",
+      "나트륨 72.8mg",
+      "단백질 6.5g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "곡물라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610112734_1717986454714_tTXJ2aV1O8.jpg",
+    "nutrition": [
+      "포화지방 4.8g",
+      "당류 38.3g",
+      "나트륨 87.7mg",
+      "단백질 17.3g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "오레오초코라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132638_1717993598875_AQ4q6GUaJD.jpg",
+    "nutrition": [
+      "포화지방 10.4g",
+      "당류 30.1g",
+      "나트륨 258.2mg",
+      "단백질 9.7g",
+      "카페인 11.1mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "토피넛라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132535_1717993535868_Dk0SpiNnAo.jpg",
+    "nutrition": [
+      "포화지방 8.3g",
+      "당류 22.5g",
+      "나트륨 172.7mg",
+      "단백질 9.2g",
+      "카페인 54.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "흑당버블밀크티라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610112956_1717986596859_dSAYDVVaV2.jpg",
+    "nutrition": [
+      "포화지방 4.3g",
+      "당류 24.4g",
+      "나트륨 106.7mg",
+      "단백질 7.6g",
+      "카페인 14.3mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "핫초코",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610110045_1717984845295_sGoEnUlQpO.jpg",
+    "nutrition": [
+      "포화지방 5.3g",
+      "당류 53.2g",
+      "나트륨 177.3mg",
+      "단백질 10.9g",
+      "카페인 21.9mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "녹차라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610104456_1717983896154_TxgXQHRHiM.jpg",
+    "nutrition": [
+      "포화지방 4.4g",
+      "당류 14.3g",
+      "나트륨 85.0mg",
+      "단백질 9.1g",
+      "카페인 114.5mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "로얄밀크티라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105616_1717984576627_IStTaWZY3_.jpg",
+    "nutrition": [
+      "포화지방 4.5g",
+      "당류 14.7g",
+      "나트륨 85.2mg",
+      "단백질 8.3g",
+      "카페인 106.2mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "흑당라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610113159_1717986719673_UjpcQYhtmh.jpg",
+    "nutrition": [
+      "포화지방 5.2g",
+      "당류 33.6g",
+      "나트륨 107.6mg",
+      "단백질 8.3g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "흑당밀크티라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610113123_1717986683549_Q8E9tuNYJL.jpg",
+    "nutrition": [
+      "포화지방 4.5g",
+      "당류 22.6g",
+      "나트륨 104.4mg",
+      "단백질 8.4g",
+      "카페인 30.6mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "흑당버블라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610113023_1717986623453_FuG0kt97Jg.jpg",
+    "nutrition": [
+      "포화지방 4.1g",
+      "당류 27.2g",
+      "나트륨 104.9mg",
+      "단백질 7.2g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "아이스초코",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132420_1717993460739_Yi5zAd90Og.jpg",
+    "nutrition": [
+      "포화지방 4.4g",
+      "당류 33.5g",
+      "나트륨 163.0mg",
+      "단백질 9.0g",
+      "카페인 21.3mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "녹차라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610112917_1717986557781__XIcwRbg0h.jpg",
+    "nutrition": [
+      "포화지방 4.8g",
+      "당류 21.2g",
+      "나트륨 52.3mg",
+      "단백질 8.5g",
+      "카페인 135.9mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "로얄밀크티라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610115251_1717987971895_crJlbiHg7t.jpg",
+    "nutrition": [
+      "포화지방 4.2g",
+      "당류 20.2g",
+      "나트륨 68.4mg",
+      "단백질 6.6g",
+      "카페인 118.1mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "아메리카노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105645_1717984605982_8i5CoHU2NV.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 0.0g",
+      "나트륨 2.4mg",
+      "단백질 0.9g",
+      "카페인 204.2mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "티라미수라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610110012_1717984812018_NPttY_PPM3.jpg",
+    "nutrition": [
+      "포화지방 13.1g",
+      "당류 38.4g",
+      "나트륨 194.5mg",
+      "단백질 10.4g",
+      "카페인 206.9mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "메가리카노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132223_1717993343456_4KESgpG57t.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 0.0g",
+      "나트륨 0.7mg",
+      "단백질 1.5g",
+      "카페인 290.8mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "티라미수라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132847_1717993727622_rgN3k3NGOE.jpg",
+    "nutrition": [
+      "포화지방 12.6g",
+      "당류 37.8g",
+      "나트륨 174.3mg",
+      "단백질 7.8g",
+      "카페인 196.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "꿀아메리카노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610104349_1717983829122_YzOyiQAOOg.jpg",
+    "nutrition": [
+      "포화지방 0.1g",
+      "당류 30.4g",
+      "나트륨 12.7mg",
+      "단백질 0.9g",
+      "카페인 199.4mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "바닐라라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610104603_1717983963750_lApih2z1h0.jpg",
+    "nutrition": [
+      "포화지방 4.7g",
+      "당류 29.6g",
+      "나트륨 86.9mg",
+      "단백질 8.7g",
+      "카페인 189.9mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "바닐라아메리카노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610104740_1717984060714__tk3s9Kb_s.jpg",
+    "nutrition": [
+      "포화지방 0.1g",
+      "당류 15.7g",
+      "나트륨 5.3mg",
+      "단백질 1.4g",
+      "카페인 220.7mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "연유라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105712_1717984632188_Lqh27degWu.jpg",
+    "nutrition": [
+      "포화지방 6.4g",
+      "당류 32.8g",
+      "나트륨 144.6mg",
+      "단백질 13.0g",
+      "카페인 194.2mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "카라멜마끼아또",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105805_1717984685954_T1qos0ocDV.jpg",
+    "nutrition": [
+      "포화지방 5.0g",
+      "당류 20.9g",
+      "나트륨 76.1mg",
+      "단백질 8.9g",
+      "카페인 206.7mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "카페라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105821_1717984701991_RUKCqSZ_HO.jpg",
+    "nutrition": [
+      "포화지방 5.2g",
+      "당류 10.8g",
+      "나트륨 101.5mg",
+      "단백질 10.0g",
+      "카페인 189.9mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "카페모카",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105838_1717984718108_ZB6aalHqIU.jpg",
+    "nutrition": [
+      "포화지방 10.6g",
+      "당류 40.8g",
+      "나트륨 159.8mg",
+      "단백질 11.2g",
+      "카페인 233.2mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "카푸치노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105852_1717984732750_WEt0KXVcnQ.jpg",
+    "nutrition": [
+      "포화지방 4.1g",
+      "당류 3.4g",
+      "나트륨 60.7mg",
+      "단백질 8.2g",
+      "카페인 201.4mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "콜드브루라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105923_1717984763591_cKSGllWUzt.jpg",
+    "nutrition": [
+      "포화지방 5.2g",
+      "당류 2.1g",
+      "나트륨 54.4mg",
+      "단백질 9.0g",
+      "카페인 216.7mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "콜드브루오리지널",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105941_1717984781078_rdCUXhwycL.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 0.0g",
+      "나트륨 1.5mg",
+      "단백질 1.0g",
+      "카페인 217.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "헤이즐넛라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610110117_1717984877061_sLiVRNPq6J.jpg",
+    "nutrition": [
+      "포화지방 5.1g",
+      "당류 9.7g",
+      "나트륨 63.1mg",
+      "단백질 9.1g",
+      "카페인 204.6mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "헤이즐넛아메리카노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610110133_1717984893137_AqJAuHaq0t.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 9.5g",
+      "나트륨 2.6mg",
+      "단백질 0.9g",
+      "카페인 209.8mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "꿀아메리카노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610133054_1717993854434_bTty_9u3br.jpg",
+    "nutrition": [
+      "포화지방 0.1g",
+      "당류 30.6g",
+      "나트륨 7.2mg",
+      "단백질 0.9g",
+      "카페인 198.6mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "바닐라라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132249_1717993369864_VIG6IR2byt.jpg",
+    "nutrition": [
+      "포화지방 3.9g",
+      "당류 23.7g",
+      "나트륨 74.1mg",
+      "단백질 7.1g",
+      "카페인 195.1mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "바닐라아메리카노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610133038_1717993838652__Ax_Xwuz6T.jpg",
+    "nutrition": [
+      "포화지방 0.1g",
+      "당류 20.2g",
+      "나트륨 3.6mg",
+      "단백질 1.1g",
+      "카페인 211.5mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "카라멜마끼아또",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132714_1717993634339_dshEGyCDsC.jpg",
+    "nutrition": [
+      "포화지방 3.9g",
+      "당류 18.5g",
+      "나트륨 61.1mg",
+      "단백질 7.1g",
+      "카페인 208.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "카페라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132819_1717993699956_cEyZRaBZh5.jpg",
+    "nutrition": [
+      "포화지방 3.8g",
+      "당류 9.2g",
+      "나트륨 88.5mg",
+      "단백질 8.5g",
+      "카페인 199.1mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "카페모카",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132727_1717993647297_GiQ8g7jOCk.jpg",
+    "nutrition": [
+      "포화지방 8.8g",
+      "당류 33.9g",
+      "나트륨 113.3mg",
+      "단백질 7.1g",
+      "카페인 232.5mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "카푸치노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132739_1717993659672_JFeCQ5qV53.jpg",
+    "nutrition": [
+      "포화지방 4.2g",
+      "당류 1.1g",
+      "나트륨 54.8mg",
+      "단백질 7.0g",
+      "카페인 192.3mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "콜드브루라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132935_1717993775051_eflW8NpTDq.jpg",
+    "nutrition": [
+      "포화지방 4.1g",
+      "당류 2.3g",
+      "나트륨 35.4mg",
+      "단백질 7.0g",
+      "카페인 131.7mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "콜드브루오리지널",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132948_1717993788811_j_eYzA1Esd.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 0.0g",
+      "나트륨 0.4mg",
+      "단백질 0.8g",
+      "카페인 156.4mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "헤이즐넛라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240430104100_1714441260123_buRoeWVyce.jpg",
+    "nutrition": [
+      "포화지방 4.6g",
+      "당류 10.8g",
+      "나트륨 57.0mg",
+      "단백질 7.3g",
+      "카페인 216.9mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "헤이즐넛아메리카노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610133023_1717993823204_vNvExvVODX.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 15.8g",
+      "나트륨 0.6mg",
+      "단백질 1.0g",
+      "카페인 196.7mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "큐브라떼",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132523_1717993523193_4mNdkfnxvz.jpg",
+    "nutrition": [
+      "포화지방 7.8g",
+      "당류 15.0g",
+      "나트륨 72.1mg",
+      "단백질 11.2g",
+      "카페인 313.4mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "아메리카노",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610133007_1717993807130_nwB5CATOJJ.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 0.0g",
+      "나트륨 1.5mg",
+      "단백질 1.0g",
+      "카페인 199.7mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "녹차프라페",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610112933_1717986573712__ob6vfs5Id.jpg",
+    "nutrition": [
+      "포화지방 10.2g",
+      "당류 80.7g",
+      "나트륨 129.9mg",
+      "단백질 6.0g",
+      "카페인 198.8mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "딸기요거트스무디",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132117_1717993277823_KRGDVA4aeJ.jpg",
+    "nutrition": [
+      "포화지방 2.0g",
+      "당류 62.5g",
+      "나트륨 66.7mg",
+      "단백질 6g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "딸기퐁크러쉬",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132132_1717993292542_TOXDd7N_72.jpg",
+    "nutrition": [
+      "포화지방 7.1g",
+      "당류 45.9g",
+      "나트륨 156.1mg",
+      "단백질 10.9g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "리얼초코프라페",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132157_1717993317456_RCHCZKkudt.jpg",
+    "nutrition": [
+      "포화지방 14.6g",
+      "당류 75.4g",
+      "나트륨 223.3mg",
+      "단백질 8.0g",
+      "카페인 32.1mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "망고요거트스무디",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132210_1717993330781_04rKlgIKk6.jpg",
+    "nutrition": [
+      "포화지방 2.3g",
+      "당류 56.4g",
+      "나트륨 76.1mg",
+      "단백질 6g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "민트프라페",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610115353_1717988033471_n8WL4rST4C.jpg",
+    "nutrition": [
+      "포화지방 16.1g",
+      "당류 64.5g",
+      "나트륨 192.9mg",
+      "단백질 5.0g",
+      "카페인 5.6mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "바나나퐁크러쉬",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132238_1717993358631_MGPEpkvNh1.jpg",
+    "nutrition": [
+      "포화지방 4.6g",
+      "당류 64.2g",
+      "나트륨 167.3mg",
+      "단백질 10.8g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "초코허니퐁크러쉬",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132651_1717993611266_QFRonrkBzf.jpg",
+    "nutrition": [
+      "포화지방 7.8g",
+      "당류 67.6g",
+      "나트륨 216.2mg",
+      "단백질 11.9g",
+      "카페인 10.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "커피프라페",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132804_1717993684465__jH6f5a2VM.jpg",
+    "nutrition": [
+      "포화지방 11.9g",
+      "당류 35.6g",
+      "나트륨 168.0mg",
+      "단백질 6.5g",
+      "카페인 162.6mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "플레인요거트스무디",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240612101151_1718154711606_iC5h64zrID.jpg",
+    "nutrition": [
+      "포화지방 2.2g",
+      "당류 84.5g",
+      "나트륨 103.4mg",
+      "단백질 7.5g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "슈크림허니퐁크러쉬",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132349_1717993429605_NSpEzrHEAN.jpg",
+    "nutrition": [
+      "포화지방 7.8g",
+      "당류 49.5g",
+      "나트륨 198.4mg",
+      "단백질 11.7g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "플레인퐁크러쉬",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610113328_1717986808464_JOQsVpbWKq.jpg",
+    "nutrition": [
+      "포화지방 6.0g",
+      "당류 46.2g",
+      "나트륨 154.8mg",
+      "단백질 10.6g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "라임모히또",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132145_1717993305587_JyUa7vPj3s.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 70.4g",
+      "나트륨 41.7mg",
+      "단백질 0.4g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "레몬에이드",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610114557_1717987557279_GKXThr0HAc.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 35.1g",
+      "나트륨 71.3mg",
+      "단백질 0.3g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "블루레몬에이드",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132302_1717993382502_3JianCydlm.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 36.5g",
+      "나트륨 77.2mg",
+      "단백질 0.2g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "자몽에이드",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132602_1717993562754_oDf7jybQYy.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 40.7g",
+      "나트륨 3.3mg",
+      "단백질 0.3g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "청포도에이드",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610115123_1717987883226_DMMQB84jmS.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 77.7g",
+      "나트륨 17.9mg",
+      "단백질 0.2g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "체리콕",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132612_1717993572374_TDYT0F41KY.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 55.6g",
+      "나트륨 5.4mg",
+      "단백질 0.2g",
+      "카페인 23.9mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "메가에이드",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610115027_1717987827980_oPj14Xi9y1.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 53.9g",
+      "나트륨 9.1mg",
+      "단백질 0.3g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "녹차",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610104441_1717983881331_6kaOJy5ayw.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 0.0g",
+      "나트륨 4.2mg",
+      "단백질 0.2g",
+      "카페인 65.3mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "사과유자차",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105629_1717984589552_V9ta2Qw90q.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 47.0g",
+      "나트륨 89.3mg",
+      "단백질 0.3g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "얼그레이",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105659_1717984619283_Ssc082a5GK.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 0.0g",
+      "나트륨 4.2mg",
+      "단백질 0.2g",
+      "카페인 73.4mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "캐모마일",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105908_1717984748214_qc34s7Vkq5.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 0.0g",
+      "나트륨 5.5mg",
+      "단백질 0.0g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "페퍼민트",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610110026_1717984826888_gfP6LsxEV3.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 0.0g",
+      "나트륨 5.3mg",
+      "단백질 0.0g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "녹차",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610112857_1717986537987_H1q4z1rnt2.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 0.0g",
+      "나트륨 2.1mg",
+      "단백질 0.3g",
+      "카페인 78.5mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "사과유자차",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132332_1717993412234_5kkTR1DkNH.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 37.5g",
+      "나트륨 74.5mg",
+      "단백질 0.3g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "얼그레이",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132511_1717993511025_ChoqheNJQf.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 0.0g",
+      "나트륨 2.1mg",
+      "단백질 0.3g",
+      "카페인 87.2mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "캐모마일",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132753_1717993673758__j_omi1oWY.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 0.0g",
+      "나트륨 2.5mg",
+      "단백질 0.1g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "페퍼민트",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610115138_1717987898720_OdAWvoBqNh.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 0.0g",
+      "나트륨 3.0mg",
+      "단백질 0.1g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "복숭아아이스티",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132446_1717993486995_hvfli27vPn.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 62.6g",
+      "나트륨 67.5mg",
+      "단백질 0.1g",
+      "카페인 24.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "유자차",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105725_1717984645282_YfXeYsJzVV.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 47.9g",
+      "나트륨 104.0mg",
+      "단백질 0.3g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "레몬차",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105600_1717984560889__UGBqFya7F.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 56.1g",
+      "나트륨 94.2mg",
+      "단백질 0.3g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "자몽차",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610105747_1717984667913_eDh3AjWACb.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 58.1g",
+      "나트륨 84.2mg",
+      "단백질 0.4g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "허니자몽블랙티",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610110100_1717984860663_v7Af5f77sc.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 53.6g",
+      "나트륨 97.5mg",
+      "단백질 0.6g",
+      "카페인 61.5mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "유자차",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610115050_1717987850728_2zPgDAyVmu.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 59.4g",
+      "나트륨 99.1mg",
+      "단백질 0.3g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "레몬차",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610114530_1717987530809_R6DsXnSZN_.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 68.9g",
+      "나트륨 101.3mg",
+      "단백질 0.3g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "자몽차",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132550_1717993550755_D158pZtb1K.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 58.5g",
+      "나트륨 89.1mg",
+      "단백질 0.4g",
+      "카페인 0.0mg"
+    ]
+  },
+  {
+    "cafe": "megacoffee",
+    "name": "허니자몽블랙티",
+    "image": "https://img.79plus.co.kr/megahp/manager/upload/menu/20240610113215_1717986735582_1qL_k3FLJ6.jpg",
+    "nutrition": [
+      "포화지방 0.0g",
+      "당류 42.7g",
+      "나트륨 133.0mg",
+      "단백질 0.4g",
+      "카페인 70.9mg"
+    ]
+  }
+]
