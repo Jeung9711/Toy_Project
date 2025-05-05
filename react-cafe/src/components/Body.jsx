@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+import { brands, dummyMenus } from "../components/dumydata";
 import BrandList from "../components/BrandList";
 import MenuSection from "../components/MenuSection";
 
@@ -32,3 +34,5 @@ function Body() {
     </div>
   );
 }
+
+export default Body;
